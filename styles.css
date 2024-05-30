@@ -1,0 +1,88 @@
+@charset "utf-8";
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+	background: #FF0000;
+	color: #3F0;
+	padding: 1rem 0;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	font-size: 24px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+}
+
+nav ul li a {
+	color: Black;
+
+    text-decoration:  ;
+	font-size: 16px;
+}
+
+section {
+	padding: 2rem;
+	color: #EAEAEA;
+	text-align: justify;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+section#about {
+    background: #f4f4f4;
+}
+
+.product {
+    margin-bottom: 1.5rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form button {
+    background: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}/* CSS Document */
+.sc {
+	font-family: "Courier New", Courier, monospace;
+}
+.sc {
+	font-size: 80px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#about li a {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #FFF;
+}
